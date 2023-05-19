@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - ./src:/app/src
+    ports:
+      - 3001:3001
